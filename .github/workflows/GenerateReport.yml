@@ -56,9 +56,9 @@ jobs:
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     env:
-      Solution_Name: GenerateReport                         # Replace with your solution name, i.e. MyWpfApp.sln.
-      Test_Project_Path: GenerateReport/GenerateReport.csproj                # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: GenerateReport.Package    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Solution_Name: GenerateReport.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
+      Test_Project_Path: GenerateReport.csproj                # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Wap_Project_Directory: Package    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
      
 
     steps:
