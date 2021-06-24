@@ -58,7 +58,7 @@ jobs:
     env:
       Solution_Name: GenerateReport.sln                        # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: GenerateReport.csproj.user      # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: C:\Users\pyare\source\repos\GenerateReport    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Directory: C:\Users\pyare\source\repos\GenerateReport\.github    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
      
 
     steps:
